@@ -28,6 +28,7 @@ body {
      padding-top: 1.2rem;
       opacity: 0.8;
 }
+
 .horizontal-list{
     list-style: none;
     padding-left: 0px;
@@ -374,4 +375,7 @@ color: grey;
     background-color: #80808078;
     color: white;
 }
-
+@media screen and (max-width: 600px) {
+  #body-header {
+    height:30vh;
+  }
